@@ -1,0 +1,14 @@
+# --- Security (NEVER UPLOAD THESE) ---
+config/secrets.py
+.env
+data/my_resume.txt
+
+# --- System & Python Junk ---
+venv/
+__pycache__/
+*.pyc
+
+# --- Build Artifacts (PyInstaller) ---
+build/
+dist/
+*.spec

@@ -1,0 +1,19 @@
+app_settings:
+  check_interval: 1.0
+
+# Define different "Personas"
+modes:
+  startup:
+    tone: "energetic, visionary, and passionate"
+    focus: "growth, disruption, and user impact"
+  corporate:
+    tone: "professional, structured, and results-oriented"
+    focus: "scalability, reliability, and operational efficiency"
+
+# CHANGE THIS to switch modes:
+current_mode: "corporate"
+
+ai_preferences:
+  tone: "casual and enthusiastic" # Options: professional, casual, witty
+  word_limit: 80
+  model: "gemini-2.5-flash"
